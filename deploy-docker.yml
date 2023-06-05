@@ -28,7 +28,7 @@
         
     - name: Start the container
       docker_container:
-        name: hariapp
+        name: myapp
         image: "mukesh92/myapp:{{DOCKER_TAG}}"
         state: started
         published_ports:
